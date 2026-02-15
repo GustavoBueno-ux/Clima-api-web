@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    width: 75vw;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    gap: .1em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    margin: .3em;
+    font-weight: 500;
+}
+
+a {
+    margin-top: 2em;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em 2.5em;
+    background-color: darkred;
+    border-radius: 16px;
+    color: white;
+}

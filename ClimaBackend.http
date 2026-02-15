@@ -1,0 +1,6 @@
+@ClimaBackend_HostAddress = http://localhost:5167
+
+GET {{ClimaBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
