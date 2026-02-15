@@ -3,7 +3,7 @@ window.onload = async function () {
     const params = new URLSearchParams(window.location.search);
     const cidade = params.get("cidade");
 
-    let res = await fetch(`http://localhost:5167/clima/${cidade}`);
+    let res = await fetch(`https://clima-api-web-1.onrender.com/clima/${cidade}`);
     let data = await res.json();
 
     this.document.getElementById("titulo").innerText = "Informações de clima de " + data.location.name;
